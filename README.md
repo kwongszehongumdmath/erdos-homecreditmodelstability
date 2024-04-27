@@ -5,4 +5,19 @@ Borrowing has been a common financial activity in the modern society. It is ther
 
 The dataset can be found in the [competition website](https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability).
 
+# Modelling approach
+We employ the following models:
+1) XGBoost
+2) MLP Classifier and
+3) LightGBM
+
+# Description of the notebooks
+Datacleaning_EDA_FeatureEngineering: Contains results of data processing and exploratory data analysis
+modelling_mlp:                       Contains preliminary modelling of the MLP approach
+modelling_MLP_final_01:              Contains final version of modelling and analysis of the MLP approach
+Modelling_Light GBM_final_01:        Contains final version of modelling and analysis of the LightGBM approach
+modelling_xgboost0:                  Contains preliminary modelling of the XGBoost
+modelling_xgboost1:                  Contains final version of modelling and analysis of the XGBoost approach
+modelling_xgboost2:                  Contains final version of modelling and analysis of the XGBoost approach, with different sets of input features
+
 
